@@ -1,0 +1,13 @@
+[package]
+name = "dispatch-executor"
+version = "0.1.0"
+authors = ["Mikko Lehtonen <scoopr@iki.fi>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
+dispatch="0.2.0"
+objc="0.2.7"
+#cocoa="0.24"
